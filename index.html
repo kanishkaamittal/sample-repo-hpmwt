@@ -11,20 +11,30 @@
     <link rel="stylesheet" href="./style.css" />
 
     <script src="https://kit.fontawesome.com/e01875523f.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="./others/favicon.ico" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script src="./script.js" defer> </script>
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
 </head>
 
 <body>
     <!-- section above navbar -->
     <div class="section-above-navbar">
-        <i class="fa-sharp fa-light fa-hexagon hexagon1"></i>
-        <img src="./home-pg-images/hpwm.png" class="logo-above"/>
+        <img src="./home-pg-images/hpwm.png" class="logo-above" />
     </div>
 
     <!-- navbar -->
     <nav class="navbar navbar-expand sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"> <img class="navbar-logo-img" src="./home-pg-images/hpwm-white.png"
-                    alt="logo-img" /></a>
+            <a class="navbar-brand" href="./index.html"> <img class="navbar-logo-img"
+                    src="./home-pg-images/hpwm-white.png" alt="logo-img" /></a>
 
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -78,7 +88,7 @@
 
         <!-- carousel slideshow -->
 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade ">
             <div class="carousel-inner">
                 <div class="carousel-heading"> Together we <br /> can save the world! </div>
                 <div class="carousel-cap"> Let's help people altogether. </div>
@@ -116,25 +126,27 @@
     <div class="cards-sec">
         <div class="card card1">
             <i class="fa-solid fa-hand-holding-heart card-icon"></i>
-            <p class="cards-heading">Who we are?</p>
-            <p class="cards-cap">We organize, promote, undertake, sponsor carry out all programmes for the benefit of
-                naturally challenged person, schedule caste, schedule tribes, people under poverty line,
-                old aged widow and down trodden irrespective of caste,creed,sex and gender.</p>
+            <p class="cards-heading">Who are we?</p>
+            <p class="cards-cap">We are the group of people who think about other people's good and are always eager to
+                provide helping hands for those who are in need, and we believe that change in society can only be
+                brought about by starting with ourselves.</p>
         </div>
         <div class="card card2">
             <i class="fa-solid fa-seedling card-icon"></i>
-            <p class="cards-heading">What we do?</p>
-            <p class="cards-cap">We are the group of people who think about other people's good and are always eager to
-                provide helping hands to the needy and we believe that change in the society can only be
-                brought from starting with ourselves.
+            <p class="cards-heading">What is our role?</p>
+            <p class="cards-cap">We organize, promote, undertake, sponsor, and carry out all
+                Programs for the benefit of naturally challenged people,
+                schedule caste, schedule tribes, people under the poverty line,
+                old, aged widows, and downtrodden, irrespective of caste, creed, sex and gender.
+
             </p>
         </div>
         <div class="card card3">
             <i class="fa-solid fa-hand-holding-hand card-icon"></i>
-            <p class="cards-heading">How we do?</p>
-            <p class="cards-cap">We organize programmes for the promotion of pre-primary education, run or
-                maintain a hospital, nursing home care centers, distribute food packets to street children,
-                provide food grains to old age homes and orphan houses.
+            <p class="cards-heading">What is our approach?</p>
+            <p class="cards-cap">We organize programs for the promotion of pre-primary education, run
+                maintain a hospital and nursing home care centers, distribute food packets to street children,
+                provide food grains to old-age homes and orphanages.
             </p>
         </div>
     </div>
@@ -144,10 +156,11 @@
     <div class="welcome-sec">
         <div class="welcome-head"> Welcome to Haripratap <br /> Memorial & Welfare Trust </div>
         <div class="hr-welcome"> </div>
-        <div class="welcome-content"> Our NGO works for providing healthy lifestyle for one's growth and development. We
-            have extended our scope by providing accidental insurances to the peoples across the small tribal areas that
-            are free of costs. Moreover, the people are being educated about government schemes and policies like PM
-            suraksha beema yojna and PM Sehat Beema Yojna and enables them to attain this without any hindrances.</div>
+        <div class="welcome-content"> Our organization plays a proactive role in giving direction.
+            For a quite social movement/revolution for social, economic,
+            cultural, scientific, technical, financial, and ethical prosperity
+            and take spearheaded initiative to spread the gain of prosperity
+            for the benefit of all living creatures throughout the masses of the world.</div>
         <img src="./home-pg-images/welcome-sec-img.jpg" class="welcome-sec-img" />
         <button type="button" class="btn btn-about-us"> About Us </button>
         <img src="./home-pg-images/welcome-sec-bg.jpg" class="welcome-bg" />
@@ -156,15 +169,95 @@
     <!-- gallery section -->
 
     <div class="gallery-sec">
-        <div class="gallery-head"> Media Gallery </div>
-        <div class="hr-gallery"> </div>
-        <img src="./home-pg-images/gallery-sec-bg.jpeg" class="gallery-bg" />
+        <div class="gallery-sec-main">
+            <div class="gallery-head"> Have a look at our Gallery! </div>
+            <div class="hr-gallery"> </div>
+            <img src="./home-pg-images/gallery-sec-bg.jpeg" class="gallery-bg" />
+        </div>
+        <div class="gallery-sec-use">
+            <div class="container">
+                <div class="slider-wrapper">
+                    <button id="prev-slide" class="slide-button material-symbols-rounded">
+                        chevron_left
+                    </button>
+                    <ul class="image-list">
+                        <img class="image-item" src="./home-pg-images/gallery-img-1.jpg" alt="img-1" />
+                        <img class="image-item" src="./home-pg-images/gallery-img-2.jpg" alt="img-2" />
+                        <img class="image-item" src="./home-pg-images/gallery-img-3.jpg" alt="img-3" />
+                        <img class="image-item" src="./home-pg-images/gallery-img-4.jpg" alt="img-4" />
+                        <img class="image-item" src="./home-pg-images/gallery-img-5.jpg" alt="img-5" />
+                        <img class="image-item" src="./home-pg-images/gallery-img-6.jpg" alt="img-6" />
+                        <img class="image-item" src="./home-pg-images/gallery-img-7.jpg" alt="img-7" />
+                        <img class="image-item" src="./home-pg-images/gallery-img-8.jpg" alt="img-8" />
+                        <img class="image-item" src="./home-pg-images/gallery-img-9.jpg" alt="img-10" />
+                        <img class="image-item" src="./home-pg-images/gallery-img-10.jpg" alt="img-9" />
+                    </ul>
+                    <button id="next-slide" class="slide-button material-symbols-rounded">
+                        chevron_right
+                    </button>
+                </div>
+                <div class="slider-scrollbar">
+                    <div class="scrollbar-track">
+                        <div class="scrollbar-thumb"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- testimonial section -->
 
     <div class="testimonial-sec">
-
+        <div id="testim" class="testim">
+            <div class="wrap">
+                <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                <ul id="testim-dots" class="dots">
+                    <li class="dot active"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                </ul>
+                <div id="testim-content" class="cont">
+                    <div class="active">
+                        <div class="img"><img src="./home-pg-images/footer-sec-bg.jpg" alt=""></div>
+                        <h2>Lorem P. Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="img"><img src="./home-pg-images/footer-sec-bg.jpg" alt=""></div>
+                        <h2>Mr. Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="img"><img src="./home-pg-images/footer-sec-bg.jpg" alt=""></div>
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="img"><img src="./home-pg-images/footer-sec-bg.jpg" alt=""></div>
+                        <h2>Lorem De Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="img"><img src="./home-pg-images/footer-sec-bg.jpg" alt=""></div>
+                        <h2>Ms. Lorem R. Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- footer -->
@@ -203,6 +296,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+
 </body>
 
 </html>
